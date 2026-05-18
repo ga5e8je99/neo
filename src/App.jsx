@@ -51,16 +51,7 @@ function App() {
       <ThemeWrapper>
         
         <ChatBot />
-        {/* Background Balls */}
-      <Box className="ball"></Box>
-      <Box
-        className="ball"
-        style={{ "--delay": "-12s", "--size": "0.35", "--speed": "25s" }}
-      ></Box>
-      <Box
-        className="ball"
-        style={{ "--delay": "-10s", "--size": "0.3", "--speed": "15s" }}
-      ></Box>
+        
       </ThemeWrapper>
     </ChatProvider>
   );

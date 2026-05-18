@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useContext, useEffect } from 'react';
 import { chatReducer, initialState } from '../reducers/chatReducer';
-import { ACTIONS } from './chatConstants';
+import { ACTIONS } from '../chatConstants';
 
 const ChatContext = createContext();
 
